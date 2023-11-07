@@ -167,6 +167,47 @@ section {
     color: gold;
 }
 
+.roadmap-container {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+.roadmap-title-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.riadnao-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.slide-preview {
+    font-size: 2rem;
+    color: rgb(67, 102, 135);
+    cursor: pointer;
+}
+
+.slide-next {
+    font-size: 2rem;
+    color: lightgrey;
+    cursor: pointer;
+}
+
+.skill img {
+    width: 2rem;
+}
+
+.skill .fa-instagram {
+    font-size: 2rem;
+    color: pink;
+}
+
+.skill .fa-photo-film {
+    font-size: 2rem;
+    color: grey;
+}
 
 @media only screen and (min-width: 1100px) {
     .inner {
@@ -174,7 +215,7 @@ section {
     }
 }
 
-@media only screen and (max-width: 980px) {
+@media only screen and (max-width: 500px) {
     .skill-container, .title {
         display: none;
     }
